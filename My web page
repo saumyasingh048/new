@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="heading">
+    <div class="heading" style="color:red; font-style:bold; padding:20px;">
         <h1>Typhoid Self Test
         </h1>
     </div>
