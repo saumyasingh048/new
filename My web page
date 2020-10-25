@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typhoid Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1>Typhoid Self Test
+        </h1>
+    </div>
+    
+    <form action="mailto:sanvi41206@gmail.com" enctype="text/plain" method="POST">
+        
+        <div>
+            <label for="name">1. Name: </label>
+            <input type="text" placeholder="Enter your Name" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="email">2. Email: </label>
+            <input type="email" placeholder="Enter your Email" id="email" name="user_email"> 
+        </div>
+        <div>
+            <label for="gender">3. Gender: </label>
+            <input class="height" type="radio" name="gender" name="sex" value="Male"><span>Male</span>
+            <input class="height" type="radio" name="gender" name="sex"value="Female"><span>Female</span>
+        </div>
+        <div>
+            <label for="date">4. Enter today's Date: </label>
+            <input type="date"  id="date" name="DATE">
+        </div>
+        <div>
+            <label for="age">5. What's your age?</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label >6. Are you experiencing any of the following symptoms?</label>
+            <div class="symptoms" >
+                <input class="height" type="checkbox" id="High fever" name="High fever">
+        <label for="High fever">High fever</label>
+        <br>
+        <input class="height" type="checkbox" id="Weakness" name="Weakness">
+        <label for="Weakness">Weakness</label>
+        <br>
+        <input class="height" type="checkbox" id="Stomach pain" name="Stomach pain">
+        <label for="Stomach pain">Stomach pain</label>
+        <br>
+        <input class="height" type="checkbox" id="Headache" name="Headache">
+        <label for="Headache">Headache</label>
+        <br>
+        <input class="height" type="checkbox" id="Poor appetite" name="Poor appetite">
+        <label for="Poor appetite">Poor appetite</label>
+        <br>
+        <input class="height" type="checkbox" id="Rash" name="Rash">
+        <label for="Rash">Rash</label>
+        <br>
+        <input class="height" type="checkbox" id="Fatigue" name="Fatigue">
+        <label for="Fatigue">Fatigue</label>
+        <br>
+        <input class="height" type="checkbox" id="Constipation" name="Constipation">
+        <label for="Constipation">Constipation</label>
+        <br>
+        <input class="height" type="checkbox" id="None of the above" name="None of the above">
+        <label for="None of the above">None of the above</label>       
+            </div>
+        </div>
+       <div >
+        <label >7. Precautions that you must take:</label>
+        <p>(1) Drink only boiling water as heat kills as many germs as possible.</p>
+        <p>(2) It’s safe to avoid cool beverages and juices from food joints, especially roadside vendors. Always carry your own water bottle while on the go.</p>
+        <p>(3) Avoid eating outside food, especially salads and wet dishes because if the vegetables or meat used are washed with contaminated water, it can lead to typhoid.</p>
+        <p>(4) If the person preparing the food has typhoid and doesn’t wash his hands properly after using the loo, the bacteria can get transmitted into the food.</p>
+        <p>(5) Make sure to clean your water puriifier and water tank on a regular basis to prevent the growth of germs.
+        <p>(6) Wash your hands properly after using a public toilet.</p>    
+    </div>
+       </div>    
+       <div>
+            <label for="more" >8. Did you like my Typhoid Self Test Website ?</label>
+           </div>
+           <div>
+            <textarea id="more" cols="100" rows="10" name="views"></textarea>
+           </div>
+       </div>
+       <div>
+           <input type="Submit" class="btn">
+        
+        
+       </div>
+
+    </form>
+</body>
+</html>
